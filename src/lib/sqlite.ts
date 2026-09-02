@@ -15,18 +15,28 @@ declare global {
 }
 
 function resolveDbPath(): string {
-  const p = process.env.SQLITE_PATH || "./data/chatbotai.db";
+  const p =
+    process.env.SQLITE_PATH ||
+    // Vercel serverless: only /tmp is writable — and it is ephemeral (one
+    // DB per warm instance, wiped on cold start). Local/VPS keeps the file
+    // next to the project.
+    (process.env.VERCEL ? "/tmp/chatbotai.db" : "./data/chatbotai.db");
   return path.isAbsolute(p) ? p : path.join(process.cwd(), p);
 }
 
 function init(): Database.Database {
   const file = resolveDbPath();
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  const db = new Database(file);
-  db.pragma("journal_mode = WAL");
-  db.pragma("foreign_keys = ON");
-  migrate(db);
-  return db;
+  try {
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    const db = new Database(file);
+    db.pragma("journal_mode = WAL");
+    db.pragma("foreign_keys = ON");
+    migrate(db);
+    return db;
+  } catch (e) {
+    console.error(`[sqlite] failed to open database at ${file}:`, e);
+    throw e;
+  }
 }
 
 export function getDb(): Database.Database {
