@@ -392,6 +392,12 @@ function seedDefaults(db: Database.Database) {
   // zip copied from another machine) or when the env password was changed later.
   const email = (process.env.SUPERADMIN_EMAIL || "").trim().toLowerCase();
   const password = process.env.SUPERADMIN_PASSWORD || "";
+  if (!email || !password) {
+    console.warn(
+      "[sqlite] SUPERADMIN_EMAIL / SUPERADMIN_PASSWORD not set — no admin user was created. " +
+      "On a fresh database every login returns 'Invalid credentials' until these env vars are configured."
+    );
+  }
   if (email && password) {
     const existing = db.prepare(
       "SELECT id, role FROM users WHERE lower(email) = lower(?) OR role = 'superadmin' ORDER BY (role = 'superadmin') DESC, id ASC LIMIT 1"
