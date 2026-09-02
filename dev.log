@@ -1,0 +1,250 @@
+
+> chatbotai-nextjs@2.0.0 dev
+> next dev
+
+   ▲ Next.js 15.1.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.3:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 1234ms (179 modules)
+ ○ Compiling /bots/[id] ...
+ ✓ Compiled /bots/[id] in 5.3s (867 modules)
+ GET /bots/1 200 in 7125ms
+ ○ Compiling /bots/[id]/knowledge ...
+ ✓ Compiled /bots/[id]/knowledge in 1392ms (883 modules)
+ GET /bots/1/knowledge 200 in 2432ms
+ ○ Compiling /bots/[id]/embed ...
+ ✓ Compiled /bots/[id]/embed in 529ms (906 modules)
+ GET /bots/1/embed 200 in 1573ms
+ ○ Compiling /bots/[id]/apis ...
+ ✓ Compiled /bots/[id]/apis in 521ms (917 modules)
+ GET /bots/1/apis 200 in 1584ms
+ ○ Compiling /bots/[id]/analytics ...
+ ✓ Compiled /bots/[id]/analytics in 1157ms (932 modules)
+ GET /bots/1/analytics 200 in 2292ms
+ ○ Compiling /bots/[id]/train ...
+ ✓ Compiled /bots/[id]/train in 606ms (940 modules)
+ GET /bots/1/train 200 in 1520ms
+ ✓ Compiled /bots/[id]/conversations in 482ms (942 modules)
+ GET /bots/1/conversations 200 in 1347ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 808ms (879 modules)
+ GET /dashboard 200 in 1157ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 821ms (883 modules)
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 1016ms
+ GET /_next/static/chunks/main-app.js?v=1782761700696 404 in 1031ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 1021ms
+ GET /_next/static/chunks/main-app.js?v=1782761700696 404 in 47ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 50ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 47ms
+ ○ Compiling /bots ...
+ ✓ Compiled /bots in 764ms (912 modules)
+ GET /bots 200 in 1056ms
+ GET /_next/static/chunks/main-app.js?v=1782761704809 404 in 77ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 76ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 79ms
+ GET /_next/static/chunks/main-app.js?v=1782761704809 404 in 23ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 16ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 19ms
+ ✓ Compiled /bots/[id] in 231ms (611 modules)
+ GET /bots/1 200 in 616ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 71ms
+ GET /_next/static/chunks/main-app.js?v=1782761707568 404 in 82ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 71ms
+ ⨯ Failed to generate static paths for /bots/[id]:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/app-pages-internals.js 404 in 45ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 43ms
+ GET /_next/static/chunks/main-app.js?v=1782761707568 404 in 44ms
+ ✓ Compiled /bots/[id]/knowledge in 370ms (623 modules)
+ GET /bots/1/knowledge 200 in 577ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/knowledge/page.js 404 in 75ms
+ GET /_next/static/chunks/main-app.js?v=1782761714285 404 in 67ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 65ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 68ms
+ ⨯ Failed to generate static paths for /bots/[id]/knowledge:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\knowledge\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/knowledge/page.js 404 in 68ms
+ GET /_next/static/chunks/main-app.js?v=1782761714285 404 in 67ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 65ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 67ms
+ ✓ Compiled /bots/[id]/embed in 404ms (631 modules)
+ GET /bots/1/embed 200 in 605ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 138ms
+ GET /_next/static/chunks/main-app.js?v=1782761741367 404 in 141ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 134ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/embed/page.js 404 in 127ms
+ ⨯ Failed to generate static paths for /bots/[id]/embed:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\embed\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/app-pages-internals.js 404 in 86ms
+ GET /_next/static/chunks/main-app.js?v=1782761741367 404 in 87ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 78ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/embed/page.js 404 in 54ms
+ ✓ Compiled /bots/[id]/apis in 417ms (640 modules)
+ GET /bots/1/apis 200 in 641ms
+ GET /_next/static/chunks/main-app.js?v=1782761744741 404 in 113ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 81ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 81ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/apis/page.js 404 in 80ms
+ ⨯ Failed to generate static paths for /bots/[id]/apis:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\apis\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 46ms
+ GET /_next/static/chunks/main-app.js?v=1782761744741 404 in 51ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 48ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/apis/page.js 404 in 47ms
+ ✓ Compiled /bots/[id]/train in 346ms (646 modules)
+ GET /bots/1/train 200 in 937ms
+ GET /_next/static/chunks/main-app.js?v=1782761747062 404 in 208ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 200ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 201ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/train/page.js 404 in 200ms
+ GET /_next/static/chunks/main-app.js?v=1782761747062 404 in 61ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 57ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/train/page.js 404 in 56ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 60ms
+ ⨯ Failed to generate static paths for /bots/[id]/train:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\train\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ✓ Compiled /bots/[id]/analytics in 330ms (650 modules)
+ GET /bots/1/analytics 200 in 734ms
+ GET /_next/static/chunks/main-app.js?v=1782761752360 404 in 106ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 106ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 106ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/analytics/page.js 404 in 105ms
+ ⨯ Failed to generate static paths for /bots/[id]/analytics:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\analytics\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/main-app.js?v=1782761752360 404 in 31ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 19ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 35ms
+ GET /_next/static/chunks/app/(app)/bots/%5Bid%5D/analytics/page.js 404 in 34ms
+ ✓ Compiled /bots/[id]/conversations in 362ms (652 modules)
+ GET /bots/1/conversations 200 in 542ms
+ GET /_next/static/chunks/main-app.js?v=1782761755972 404 in 61ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 58ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 54ms
+ ⨯ Failed to generate static paths for /bots/[id]/conversations:
+[Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\conversations\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /_next/static/chunks/main-app.js?v=1782761755972 404 in 57ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 60ms
+ GET /_next/static/chunks/app/(app)/layout.js 404 in 56ms
+ ⨯ [Error: Cannot find module './vendor-chunks/@swc.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\embed\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/bots/1/embed'
+}
+ ○ Compiling /_error ...
+ GET /bots/1/embed 500 in 2563ms
+ ✓ Compiled /bots/[id] in 2.7s (1184 modules)
+ ✓ Compiled (1190 modules)
+ ⨯ [Error: Cannot find module './vendor-chunks/bcryptjs.js'
+Require stack:
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\webpack-runtime.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\.next\server\app\(app)\bots\[id]\page.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\require.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\load-components.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\build\utils.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Sonam\chatbot-saas-main\chatbot-saas-main\nextjs-app\node_modules\next\dist\compiled\jest-worker\processChild.js] {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/bots/1'
+}
+ GET /bots/1 500 in 1887ms
